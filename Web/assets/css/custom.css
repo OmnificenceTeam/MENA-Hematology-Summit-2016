@@ -1,0 +1,638 @@
+﻿
+
+ul.cities li {
+    text-align: center;
+}
+
+    ul.cities li a {
+        border: none;
+    }
+
+#menu-btn ul.cities li a {
+    border: 1px dotted #fff;
+}
+
+.banner-gif {
+    width: 100%;
+}
+
+.home-city-nav .about p {
+    text-align: justify;
+}
+
+.name-letter-space {
+    letter-spacing: 2px;
+}
+
+.speaker-card {
+    vertical-align: middle !important;
+    letter-spacing: 2px;
+}
+
+.view-more-card {
+    color: #fff !important;
+    font-size: 200%;
+}
+
+#home-faculty ul.cities li a {
+    border: none;
+}
+
+.with-sub-text {
+    top: 10px;
+    left: 10px !important;
+    text-align: left;
+}
+
+.sub-text {
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 1px;
+    line-height: normal;
+    text-align: justify;
+}
+
+.dl-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.webcast {
+    /*overflow-y: auto !important;*/
+    height: 400px;
+}
+
+.webcast-title {
+    background: #a11c1c;
+    padding: 10px;
+    letter-spacing: 0px;
+}
+
+.footer span {
+    padding: 0px 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width : 320px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        height: 100px;
+        background-color: #a11c1c;
+        padding: 5px;
+        font-size: 12px;
+        color: white;
+        text-align: left;
+    }
+
+    .nLogo {
+        width: 130px;
+        position: absolute;
+        right: 15px;
+        top: 53px;
+    }
+
+    .footer span {
+        line-height: 24px;
+    }
+
+    .about {
+        padding-left: 2%;
+        width: 75%;
+    }
+
+    .hide-speaker {
+        display: none;
+    }
+
+    .app-logo-1 {
+        display: none;
+    }
+
+    .app-logo-2 {
+        display: block;
+    }
+
+    .extra-br {
+        display: none;
+    }
+
+    .desc-div {
+        width: 100%;
+        left: 0px;
+    }
+
+    .video-sample {
+        padding-left: 0px;
+    }
+
+    #modal-banner .left-content {
+        width: 100%;
+    }
+
+    #modal-banner .right-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        height: 70px;
+        background-color: #a11c1c;
+        padding: 5px;
+        font-size: 12px;
+        color: white;
+        text-align: left;
+    }
+
+    .nLogo {
+        width: 130px;
+        position: absolute;
+        right: 15px;
+        top: 24px;
+    }
+
+    .footer span {
+        line-height: 24px;
+    }
+
+    .about {
+        padding-left: 2%;
+        width: 75%;
+    }
+
+    .hide-speaker {
+        display: none;
+    }
+
+    .app-logo-1 {
+        display: none;
+    }
+
+    .app-logo-2 {
+        display: block;
+    }
+
+    .extra-br {
+        display: none;
+    }
+
+    .desc-div {
+        width: 100%;
+        left: 0px;
+    }
+
+    .video-sample {
+        padding-left: 0px;
+    }
+
+    #modal-banner .left-content {
+        width: 100%;
+    }
+
+    #modal-banner .right-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        height: 100px;
+        background-color: #a11c1c;
+        padding: 24px;
+        font-size: 14px;
+        color: white;
+        text-align: left;
+    }
+
+    .nLogo {
+        width: 130px;
+        position: absolute;
+        right: 15px;
+        top: 45px;
+    }
+
+    .about {
+        padding-left: 2%;
+        width: 50%;
+    }
+
+    .hide-speaker {
+        display: none;
+    }
+
+    .app-logo-1 {
+        display: none;
+    }
+
+    .app-logo-2 {
+        display: block;
+    }
+
+    .extra-br {
+        display: none;
+    }
+
+    .desc-div {
+        width: 97%;
+        left: 17px;
+    }
+
+    .video-sample {
+        padding-left: 10px;
+    }
+
+    .home-city-nav .cities li.video-sample-container {
+        width: 25%;
+    }
+
+    #modal-banner .left-content {
+        width: 100%;
+    }
+
+    #modal-banner .right-content {
+        width: 100%;
+    }
+    .city-nav .cities a {
+              font: 22px/24px "futuraregular", sans-serif;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        height: 70px;
+        background-color: #a11c1c;
+        padding: 20px;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+    }
+
+    .nLogo
+     {
+        width: 110px;
+        position: absolute;
+        right: 15px;
+        top: 17px;
+    }
+
+    .about {
+        padding-left: 0;
+        width: 75%;
+    }
+
+    .hide-speaker {
+        display: block;
+    }
+
+    .app-logo-1 {
+        display: block;
+    }
+
+    .app-logo-2 {
+        display: none;
+    }
+
+    .extra-br {
+        display: block;
+    }
+
+    .desc-div {
+        width: 97%;
+        left: 17px;
+    }
+
+    .video-sample {
+        padding-left: 10px;
+    }
+
+    #modal-banner .left-content {
+        width: 50%;
+    }
+
+    #modal-banner .right-content {
+        width: 50%;
+    }
+}
+
+.home-agenda {
+    background: #a11c1c;
+    text-transform: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.home-agenda-text {
+    position: absolute;
+    top: 5%;
+    padding: 5%;
+}
+
+.home-agenda-text-div {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+.home-agenda-div-box {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    color: #a11c1c;
+    font-size: 85%;
+    font-family: 'futuraregular';
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.app-logo {
+   left: 24% !important;
+    top: 25% !important;
+    width: 35% !important;
+}
+
+.app-logo-1 img {
+    top: -50px;
+    left: 20px;
+    position: absolute;
+    width: 15%;
+}
+
+.app-logo-2 {
+    width: 100%;
+    text-align: center;
+}
+
+.modal-content {
+    background: #fff !important;
+}
+
+button.close {
+    float: right;
+    background: transparent;
+    color: #a11c1c;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 6px 12px;
+}
+
+.modal-open {
+    padding-right: 0px !important;
+}
+
+.modal {
+    letter-spacing: 1.1px;
+}
+
+    .modal ul, .modal ol {
+        padding: 0px;
+        padding-left: 40px;
+        margin: 0px;
+    }
+
+        .modal ul li {
+            background: none;
+            padding: 0px;
+            list-style: disc;
+            font-size: 14px;
+            line-height: 1.42857143;
+        }
+
+.modal-header {
+    padding: 9px 0px 0px 0px !important;
+}
+
+.modal-title {
+    margin-top: 6px !important;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+    .table-bordered tr td {
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+
+.banner-bg {
+    background: #24211C no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 350px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.banner-title-container {
+    height: 350px;
+}
+
+.banner-title {
+    line-height: 350px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.right-arrow img {
+    width: 18px;
+}
+
+
+.read-question {
+    position: relative;
+    left: 20px;
+    margin-left: -20px;
+}
+
+.other-pages {
+    max-width: 1020px !important;
+}
+
+.desc-div {
+    position: absolute;
+    z-index: 999999999999;
+    background: white;
+    text-align: justify;
+    padding: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.desc-div-img {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+.desc-down-img {
+    width: 15px !important;
+}
+
+.speakerImg {
+    width: 100%;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 2px solid transparent;
+}
+
+.custom-choose {
+    height: 65px !important;
+    line-height: 65px !important;
+    top: -30px !important;
+}
+
+.video-sample-container {
+    height: 180px;
+    max-height: 180px;
+}
+
+    .video-sample-container a,
+    .video-sample-container .card__front {
+        height: 180px;
+    }
+
+
+.video-sample-container {
+    padding: 0px !important;
+    max-height: 180px;
+    height: 180px;
+    overflow-y: auto;
+    text-align: justify;
+    background: transparent;
+}
+
+.video-sample-text {
+    padding: 10px;
+    background: #fff;
+    height: 100%;
+}
+
+    .video-sample-text p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+
+.video-sample-container .view-more-card {
+    height: 50px;
+    line-height: 50px;
+}
+
+    .video-sample-container .view-more-card img {
+        width: 50px !important;
+    }
+
+
+
+
+input[type="radio"] {
+    display: none;
+}
+
+    input[type="radio"] + label {
+        color: #000;
+        line-height: 35px;
+        padding-left: 25px;
+        font-size: 14px;
+    }
+
+        input[type="radio"] + label span {
+            display: inline-block;
+            width: 19px;
+            height: 19px;
+            margin: -1px 4px 0 0;
+            vertical-align: middle;
+            cursor: pointer;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        input[type="radio"] + label span {
+            background-color: #fff;
+            border: 1px solid #a11c1c;
+        }
+
+    input[type="radio"]:checked + label span {
+        background-color: #a11c1c;
+    }
+
+    input[type="radio"] + label span,
+    input[type="radio"]:checked + label span {
+        -webkit-transition: background-color 0.4s linear;
+        -o-transition: background-color 0.4s linear;
+        -moz-transition: background-color 0.4s linear;
+        transition: background-color 0.4s linear;
+    }
+
+
+.download-btn {
+    background-color: #a11c1c;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 130%;
+    border-bottom: 3px solid #646464;
+    margin-bottom: 10px;
+}
+
+.direct-link-btn {
+    background-color: #a11c1c;
+    font-weight: bolder;
+    color: white;
+    padding: 5px 10px;
+    border-bottom: 3px solid #646464;
+    margin-bottom: 10px;
+}
+
+.banner-list-container {
+    border: 2px solid #a11c1c;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+#modal-banner .left-content {
+    float: left;
+    padding: 5px;
+}
+
+#modal-banner .right-content {
+    float: left;
+    padding: 5px;
+}
+
+.store-img-col {
+    margin: 0px !important;
+}
+
+.store-img {
+    width: 100%;
+    cursor: pointer;
+}

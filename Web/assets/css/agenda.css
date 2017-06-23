@@ -1,0 +1,251 @@
+﻿ul.nav li
+{
+    background:none;
+    padding: 0 0 0px 5px;
+    font-size: 100%;
+    width: 33.3%;
+}
+
+@media only screen and (max-width : 414px) {
+    .nav #atabday3,#atabday2,#atabday1 {
+        padding: 0 0 0px 5px;
+        font-size:59%;
+    }
+}
+@media only screen and (device-width : 320px) {
+    .nav #atabday3,#atabday2,#atabday1 {
+        padding: 0 0 0px 5px;
+        font-size:49%;
+    }
+}
+@media only screen and (device-width : 768px) {
+    .nav #atabday3,#atabday2,#atabday1 {
+        padding: 0 0 0px 5px;
+        font-size:62%;
+    }
+}
+
+@media only screen and (device-width : 480px) {
+    .nav #atabday3,#atabday2,#atabday1 {
+        padding: 0 0 0px 5px;
+        font-size:88%;
+    }
+}
+
+@media only screen and (device-width : 1024px) {
+    .nav #atabday3,#atabday2,#atabday1 {
+        padding: 0 0 0px 5px;
+        font-size:88%;
+    }
+}
+
+ul.nav
+{
+    padding: 1px 0px;
+    text-align:center;
+}
+
+a:hover, a:focus {
+    text-decoration:none !important;
+}
+
+.no-margin
+{
+    margin:0!important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: white;
+    cursor: default;
+    background-color: #a11c1c;
+    border-bottom-color: transparent;
+    border-radius: 0;
+}
+
+.nav-tabs > li > a {
+    background:white;
+    color:#a11c1c;
+    border-radius: 0;
+}
+
+
+.no-gutter [class*="-6"] {
+    padding-left:0;
+    padding-right:0;
+}
+
+
+.Atitl
+{
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.Acont
+{
+        margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+
+hr.styled {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), WHITE, rgba(0, 0, 0, 0));
+}
+
+.agendatab
+{
+    max-height: 560px;
+    overflow: auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+.sname
+{
+    background: white;
+    color: #A11C1C;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    margin-right: 5px;
+    cursor: default;
+}
+
+.btn-download
+{
+           border: 1px dotted rgba(255, 255, 255, 0.6);
+    color: white;
+    border-radius: 0px;
+}
+a.btn-download:hover {
+          color: white;
+}
+
+
+a.btn-download img
+{
+        width: 20px;
+}
+
+.Adet
+{
+        position: absolute;
+    z-index: 9;
+    background:rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 80%;
+    /*margin-top: 50px;*/
+    color:#A11C1C;
+}
+
+.Adet p
+{
+    margin:0px;
+
+}
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+.aimg.inactive
+{
+        width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+.tab-pane
+{
+    background: #A11C1C;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+.logCont
+{
+    font-family:"futuraregular";
+}
+
+.cclock
+{
+    background-color: transparent;
+    z-index: 999;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.cdclock
+{
+        height: 102px;
+    position: absolute;
+    width: 102px;
+    background: black;
+    top: 0;
+    border-radius: 100px;
+}
+
+.btn-flat
+{
+    border-radius:0px !important;
+}
+
+.logCont p
+{
+    margin: 5px 0px;
+    font-size: 16px;
+    margin-bottom:10px;
+     
+    letter-spacing: 0.5px;
+}
+
+.logCont td
+{
+     font-weight: bold;
+}
+
+.bg-red
+{
+     background:#A11C1C;
+     color:white;
+}
+
+
+.pad-10
+{
+    padding:10px;
+}
+.bg-white
+{
+    background:white;
+    padding:20px 10px;
+}
+
+.clr-red
+{
+    color:#A11C1C;
+}
+
+.marbt-10
+{
+        margin-bottom: 10px !important;
+        margin-top:10px !important;
+}
+.uline
+{
+    text-decoration:underline;
+}

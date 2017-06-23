@@ -1,0 +1,202 @@
+/* MODAL */
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 25px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog {
+    left: -100%;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -100%;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    background: transparent;
+    border: none;
+    padding-left: 0px;
+    color: #A11C1C;
+}
+
+
+
+.modal-body {
+    height: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.modal-backdrop {
+    background-color: transparent !important;
+}
+
+.modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+h3.modal-title {
+    font-size: 24px;
+}
+
+.modal h4 {
+    font-size: 18px !important;
+}
+
+#modal-survey .modal-footer button {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#modal-survey .modal-header,
+#modal-highlights .modal-header {
+    background: #a11c1c;
+    color: #fff;
+    padding-left: 10px !important;
+    padding-top: 0px !important;
+}
+
+    #modal-survey .modal-header button,
+    #modal-highlights .modal-header button {
+        color: #fff;
+        font-size: 20px;
+        opacity: 1;
+        padding: 0 20px;
+    }
+
+#modal-survey .modal-title,
+#modal-highlights .modal-title {
+    margin-top: 16px !important;
+}
+
+#modal-survey .modal-dialog {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+}
+
+#modal-survey .modal-content {
+    position: absolute;
+    bottom: 0;
+}
+
+#modal-survey .modal-body {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
+#modal-survey.modal.left .modal-dialog {
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+#modal-survey.modal.left .modal-content {
+    height: auto;
+    overflow-y: auto;
+}
+
+#modal-survey.modal.left .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+#modal-survey.modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+#modal-survey.modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+#modal-banner .modal-body {
+    background-image: url('../images/banner_bg.png');
+    background-size: 100% 100%;
+    padding: 0px;
+}
+
+#modal-banner .modal-footer {
+    background-color: #a11c1c;
+}
+
+#modal-banner.modal ul {
+    color: #a11c1c;
+    padding-left: 25px;
+}
+
+    #modal-banner.modal ul li {
+        padding-bottom: 10px;
+    }
+
+        #modal-banner.modal ul li span {
+            color: #000;
+        }
+
+#modal-banner {
+    background-color: rgba(0,0,0,0.4);
+}
